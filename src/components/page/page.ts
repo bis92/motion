@@ -17,7 +17,7 @@ type SectionContainerConstructor = {
 export class PageItemComponent extends BaseComponent<HTMLElement> implements SectionContainer {
   private closeListner?: OnCloseListener;
   constructor() {
-    super(`<li class="page_item">
+    super(`<li class="page-item">
             <section class="page-item__body"></section>
             <button class="close">&times;</button>
           </li>`);
